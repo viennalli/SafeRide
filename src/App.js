@@ -52,6 +52,65 @@ function App() {
         </div>
       </section>
 
+      <section className="about-section">
+        <h1>About Us</h1>
+        
+        <div className="about-container">
+          <div className="about-text">
+            <p>
+              At Saferide, we believe that getting to and from campus should be stress-free, safe, and community-driven. As a dedicated student transportation service, we provide reliable and comfortable rides for students traveling between colleges like Cornell, Colgate, and Syracuse to destinations like Ithaca, Rochester, and NYC. With upfront pricing, flexible scheduling, and a commitment to student safety, we ensure that every trip is smooth and hassle-free. Our small but growing team of experienced drivers is available 24/7, making sure students can count on us whenever they need a ride. Whether you're heading home for break, catching a flight, or just making a quick coffee stop along the way, Saferide is here to get you there—comfortably and on time. What sets us apart? We keep things community-focused and transparent—students can see if a ride has already been booked and request to share for a lower fare. We also offer live tracking for parents, push notifications for pickups and drop-offs, and a straightforward booking system that allows for stops, rebookings, and pre-payments.
+            </p>
+          </div>
+          
+          <div className="about-image">
+            {/* Replace this with your actual bus image */}
+            <img src="/bus-placeholder.png" alt="SafeRide Bus" className="bus-image" />
+          </div>
+        </div>
+      </section>
+
+      <section className="testimonials-section">
+        <h1>Testimonials</h1>
+        
+        <div className="testimonials-container">
+          <div className="testimonial-card">
+            <h2>"A terrific piece of praise"</h2>
+            <div className="testimonial-author">
+              {/* Replace with actual profile image */}
+              <img src="/profile1-placeholder.png" alt="Profile" className="profile-image" />
+              <div className="author-info">
+                <h3>Name</h3>
+                <p>Description</p>
+              </div>
+            </div>
+          </div>
+          
+          <div className="testimonial-card">
+            <h2>"A fantastic bit of feedback"</h2>
+            <div className="testimonial-author">
+              {/* Replace with actual profile image */}
+              <img src="/profile2-placeholder.png" alt="Profile" className="profile-image" />
+              <div className="author-info">
+                <h3>Name</h3>
+                <p>Description</p>
+              </div>
+            </div>
+          </div>
+          
+          <div className="testimonial-card">
+            <h2>"A genuinely glowing review"</h2>
+            <div className="testimonial-author">
+              {/* Replace with actual profile image */}
+              <img src="/profile3-placeholder.png" alt="Profile" className="profile-image" />
+              <div className="author-info">
+                <h3>Name</h3>
+                <p>Description</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <footer>
         <p>&copy; {new Date().getFullYear()} SafeRide. All rights reserved.</p>
       </footer>

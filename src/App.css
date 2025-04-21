@@ -18,7 +18,7 @@ body {
 
 /* Navbar Styles */
 .navbar {
-  background-color: #3f51b5; /* Purple color from the image */
+  background-color: #2F3691; /* Purple color from the image */
   color: white;
   display: flex;
   justify-content: space-between;
@@ -53,7 +53,7 @@ body {
 
 /* Hero Section */
 .hero {
-  background-color: #cfd8dc; /* Light blue/gray color */
+  background-color: #C9DCFF; /* Light blue/gray color */
   padding: 2rem;
   display: flex;
   justify-content: center;
@@ -75,7 +75,6 @@ body {
 /* Routes Section */
 .routes-section {
   padding: 2rem;
-  flex-grow: 1;
 }
 
 .routes-section h1 {
@@ -128,6 +127,96 @@ body {
   width: 100%;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* About Section */
+.about-section {
+  padding: 2rem;
+  background-color: #C9DCFF; /* Light blue/gray color */
+}
+
+.about-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-container {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.about-text {
+  flex: 3;
+}
+
+.about-text p {
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+.about-image {
+  flex: 2;
+}
+
+.bus-image {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  padding: 2rem;
+}
+
+.testimonials-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.testimonials-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.testimonial-card {
+  flex: 1;
+  padding: 1.5rem;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.testimonial-card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.author-info h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.author-info p {
+  margin: 0;
+  color: #666;
+  font-size: 0.9rem;
 }
 
 /* Footer */
